@@ -2,6 +2,7 @@
 
 #Author: Gilbert
 #Date: 02/18/2023
+#Description: Installation of jenkins of centos
 
 #Update Server before Jenkins Installation
 sudo yum update -y
