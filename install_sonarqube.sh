@@ -24,8 +24,10 @@ sudo unzip /opt/sonarqube-9.3.0.51899.zip
 #Change ownership to the user and Switch to Linux binaries directory to start service
 
 sudo chown -R vagrant:vagrant /opt/sonarqube-9.3.0.51899
-cd /opt/sonarqube-x.x/bin/linux-x86-64 
- ./sonar.sh start
+cd sonarqube-9.3.0.51899/
+cd /bin
+cd linux-x86-64
+./sonar.sh start
 
  #Connect to the SonarQube server through the browser. It uses port 9000
 
